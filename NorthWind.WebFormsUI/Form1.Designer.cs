@@ -28,12 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.grdViewProducts = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.grdViewProducts)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // grdViewProducts
+            // 
+            this.grdViewProducts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdViewProducts.Location = new System.Drawing.Point(32, 39);
+            this.grdViewProducts.Name = "grdViewProducts";
+            this.grdViewProducts.Size = new System.Drawing.Size(852, 150);
+            this.grdViewProducts.TabIndex = 0;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(896, 294);
+            this.Controls.Add(this.grdViewProducts);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.grdViewProducts)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.DataGridView grdViewProducts;
     }
 }
 
