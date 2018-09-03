@@ -35,11 +35,9 @@
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -93,6 +91,10 @@
     <ProjectReference Include="..\NorthWind.Business\NorthWind.Business.csproj">
       <Project>{f43bb546-e8ec-4000-8594-658f75cff7ff}</Project>
       <Name>NorthWind.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NorthWind.DataAccess\NorthWind.DataAccess.csproj">
+      <Project>{C889BED3-DF78-479A-B483-764D7175167C}</Project>
+      <Name>NorthWind.DataAccess</Name>
     </ProjectReference>
     <ProjectReference Include="..\NorthWind.Entities\NorthWind.Entities.csproj">
       <Project>{977f5959-6a70-4f53-9bfb-4bb7d94fc917}</Project>
